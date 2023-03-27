@@ -5,9 +5,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "types": "nuxi typecheck && vue-tsc --noEmit"
   },
   "devDependencies": {
-    "nuxt": "^3.3.1"
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@types/node": "^18.15.5",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.4",
+    "vue-tsc": "^1.2.0"
   }
 }
